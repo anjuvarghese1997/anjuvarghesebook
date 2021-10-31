@@ -1,0 +1,31 @@
+<div class="backgd">
+    <div class="container">
+    <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+    <h1 class="head">Books</h1>
+        <div class="main">
+            <form [formGroup]="registerForm" (ngSubmit)="register()">
+                <h4>REGISTRATION</h4>
+                
+
+                <input id="bname" class=" mt-3" type="text"  name="bname" formControlName="bname" placeholder="Book Name"><br>
+                
+                
+                <input id="aname" class=" mt-3" type="text"  name="aname" formControlName="aname" placeholder="Auther Name"><br>
+            
+                
+                <input id="category" class=" mt-3" type="text" name="category" formControlName="category"   placeholder="Category"><br>
+               
+                <input id="ypublic" class=" mt-3" type="text" name="ypublic" formControlName="ypublic"   placeholder="Year of Publication"><br>
+                <button type="submit" class="btn btn-secondary mt-3 but" name="button" value="Register"  >REGISTER</button>
+
+               
+            </form>
+        </div>
+    </div>
+    <div class="col-4"></div>
+    </div>
+    </div>
+</div>
+
